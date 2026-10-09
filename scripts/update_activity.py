@@ -75,6 +75,13 @@ def normalize_commit(commit, repo, user=USER):
             "url": f"https://github.com/{repo}/commit/{commit['sha']}"}
 
 
+def candidate_repos(public_repos, pushes):
+    available = {r["full_name"] for r in public_repos}
+    selected = [f"{USER}/{name}" for name in [USER, "IsaacLab_Walker_S2", "Simulation", f"{USER}.github.io"]
+                if f"{USER}/{name}" in available]
+    return list(dict.fromkeys([p["repo"] for p in pushes] + selected + [r["full_name"] for r in public_repos]))[:10]
+
+
 def collect():
     events = []
     for page in range(1, 4):
@@ -85,7 +92,7 @@ def collect():
     pushes = public_pushes(events)
     repos = get_json(f"users/{USER}/repos?" + urlencode({"type": "owner", "sort": "pushed", "per_page": 100}))
     public_repos = [r for r in repos if r.get("private") is False and REPO_PATTERN.fullmatch(r.get("full_name", ""))]
-    names = list(dict.fromkeys([p["repo"] for p in pushes] + [r["full_name"] for r in public_repos]))[:10]
+    names = candidate_repos(public_repos, pushes)
     commits = []
     for repo in names:
         try:
@@ -119,6 +126,7 @@ def render(data, language):
     note = "公开活动 · 更新于" if zh else "Public activity · Updated"
     lines = [f"<sub>{note} {stamp} (UTC+8). " + ("每 6 小时检查更新；推送事件可能延迟。" if zh else "Checked every 6 hours; push events may be delayed.") + "</sub>", ""]
     lines += ["### 最近提交" if zh else "### Recent Commits", ""]
+    lines += ["来自代表项目与近期活跃的公开仓库。" if zh else "From selected projects and recently active public repositories.", ""]
     for commit in data["commits"]:
         lines += [f"- **[{commit['sha'][:7]}]({commit['url']})** · {escape(commit['repo'])}",
                   f"  <sub>{local_time(commit['date'])} · {html.escape(commit['message'][:90])}</sub>"]

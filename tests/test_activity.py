@@ -32,6 +32,13 @@ class ActivityTests(unittest.TestCase):
         commit["author"]["login"] = activity.USER
         self.assertIsNotNone(activity.normalize_commit(commit, activity.USER + "/Simulation"))
 
+    def test_selected_projects_are_included_when_many_forks_are_active(self):
+        recent = [{"full_name": f"{activity.USER}/fork-{i}"} for i in range(12)]
+        selected = {"full_name": activity.USER + "/IsaacLab_Walker_S2"}
+        names = activity.candidate_repos(recent + [selected], [])
+        self.assertIn(selected["full_name"], names)
+        self.assertEqual(len(names), 10)
+
     def test_markdown_and_html_from_public_events_are_escaped(self):
         row = activity.public_pushes([self.event(payload={"ref": "refs/heads/[bad](evil)<script>", "head": "a" * 40})])[0]
         data = {"updated_at": "2026-10-09T11:00:00Z", "pushes_available": True, "pushes": [row], "commits": []}

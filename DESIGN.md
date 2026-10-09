@@ -6,7 +6,7 @@
 
 `.github/workflows/profile-activity.yml` checks activity every six hours, on profile content changes, and on manual dispatch. The workflow uses the built-in, repository-scoped GitHub token. No personal access token or additional secret is required.
 
-`scripts/update_activity.py` updates the activity block in both languages from one shared `activity-data.json` snapshot. It displays up to five public pushes and five recent authored commits from the ten most recently active candidate public repositories. Imported upstream commits and bot-authored refresh commits are excluded. This is a recent activity summary, not a full contribution count.
+`scripts/update_activity.py` updates the activity block in both languages from one shared `activity-data.json` snapshot. It displays up to five public pushes and five recent authored commits from up to ten public repositories, prioritizing the selected projects and repositories with recent pushes. Imported upstream commits and bot-authored refresh commits are excluded. This is a recent activity summary, not a full contribution count.
 
 The events API includes a limited recent window and can take time to expose pushes. Commit timestamps are never presented as push timestamps. Event-based push links point to the before/after comparison when available, otherwise the push head or branch history.
 
