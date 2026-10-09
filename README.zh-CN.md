@@ -27,26 +27,6 @@
 | **机器人仿真** | Isaac Lab / Isaac Sim、MuJoCo 与运动控制 |
 | **研究与工程** | 文献笔记、方法对照与可复用的工程记录 |
 
-## 项目与记录
-
-### [IsaacLab_Walker_S2](https://github.com/GhostDragon9889/IsaacLab_Walker_S2)
-
-基于 Isaac Lab 的 Walker S2 仿真实践，包含机器人资产、环境配置与强化学习训练配置。
-
-`Isaac Lab` `Python` `Locomotion`
-
-### [Simulation](https://github.com/GhostDragon9889/Simulation)
-
-基于 Isaac Lab 扩展模板的仿真实践，整理场景搭建、机器人配置与训练脚本。
-
-`Isaac Sim` `Simulation` `Python`
-
-### [学术与工程主页](https://ghostdragon9889.github.io/)
-
-整理具身智能论文阅读、跨论文方法对照和工程实践，让阅读与实验记录持续积累。
-
-[阅读目录 →](https://ghostdragon9889.github.io/reading/) · [学术与工程 →](https://ghostdragon9889.github.io/knowledge/) · [网站源码 →](https://github.com/GhostDragon9889/GhostDragon9889.github.io)
-
 ## 学习与复现资源
 
 公开 Fork 的学习入口，原始工作归对应上游作者。

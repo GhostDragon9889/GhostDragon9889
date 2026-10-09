@@ -27,26 +27,6 @@ Exploring **reinforcement learning, embodied AI, and robotics simulation** throu
 | **Robotics Simulation** | Isaac Lab / Isaac Sim, MuJoCo, and locomotion control |
 | **Research & Engineering** | Paper notes, method comparisons, and reusable engineering records |
 
-## Selected Projects
-
-### [IsaacLab_Walker_S2](https://github.com/GhostDragon9889/IsaacLab_Walker_S2)
-
-Walker S2 simulation experiments built on Isaac Lab, with robot assets, environment configurations, and reinforcement learning training configurations.
-
-`Isaac Lab` `Python` `Locomotion`
-
-### [Simulation](https://github.com/GhostDragon9889/Simulation)
-
-Simulation practice based on the Isaac Lab extension template, covering scene creation, robot configurations, and training scripts.
-
-`Isaac Sim` `Simulation` `Python`
-
-### [Research & Engineering Website](https://ghostdragon9889.github.io/en/)
-
-Paper notes on embodied AI, comparisons across methods, and engineering practice collected in one place.
-
-[Paper notes →](https://ghostdragon9889.github.io/en/reading/) · [Research & engineering →](https://ghostdragon9889.github.io/en/knowledge/) · [Website source →](https://github.com/GhostDragon9889/GhostDragon9889.github.io)
-
 ## Learning & Reproduction
 
 Public forks I explore for learning and reproduction. Original work belongs to the respective upstream authors.
