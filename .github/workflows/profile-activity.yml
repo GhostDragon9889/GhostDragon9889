@@ -1,0 +1,50 @@
+name: Refresh profile activity
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - README.zh-CN.md
+      - scripts/update_activity.py
+      - tests/test_activity.py
+      - .github/workflows/profile-activity.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the current profile
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: main
+      - name: Validate the activity updater
+        run: |
+          python3 -m py_compile scripts/update_activity.py
+          python3 -m unittest discover -s tests -v
+      - name: Fetch public activity and update both languages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_activity.py
+      - name: Publish changed records
+        run: |
+          git add README.md README.zh-CN.md activity-data.json
+          if git diff --cached --quiet; then
+            echo "Activity unchanged."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Refresh public commits and push records"
+          git push origin HEAD:main
