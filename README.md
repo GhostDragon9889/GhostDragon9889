@@ -23,24 +23,25 @@ Exploring **reinforcement learning, embodied AI, and robotics simulation** throu
 [Contribution history](https://github.com/GhostDragon9889?tab=overview#js-contribution-activity) · [Profile repository commits](https://github.com/GhostDragon9889/GhostDragon9889/commits/main/) · [Activity updates](https://github.com/GhostDragon9889/GhostDragon9889/actions/workflows/profile-activity.yml)
 
 <!-- ACTIVITY:START -->
-<sub>Public activity · Updated 2026-10-09 19:11 (UTC+8). Checked every 6 hours; push events may be delayed.</sub>
+<sub>Public activity · Updated 2026-10-09 19:13 (UTC+8). Checked every 6 hours; push events may be delayed.</sub>
 
 ### Recent Commits
 
+- **[aae40ac](https://github.com/GhostDragon9889/GhostDragon9889/commit/aae40ace880e5d2b55fed35a8d5eba2b2539d85e)** · GhostDragon9889/GhostDragon9889
+  <sub>2026-10-09 19:12 · Add English and Chinese profile navigation with public activity records</sub>
 - **[3308cfb](https://github.com/GhostDragon9889/GhostDragon9889/commit/3308cfbe06148616e592e7dbc2870bf88cf693a8)** · GhostDragon9889/GhostDragon9889
   <sub>2026-10-09 18:58 · Build a dark robotics profile with responsive animated banners</sub>
 - **[a5fe2e0](https://github.com/GhostDragon9889/GhostDragon9889/commit/a5fe2e044d2e198098810fd08ab76b28cee3e2f0)** · GhostDragon9889/GhostDragon9889
   <sub>2026-10-09 18:55 · Initial commit</sub>
-- **[1f6e5e1](https://github.com/GhostDragon9889/IsaacLab_Walker_S2/commit/1f6e5e18eacf29bf5882d2226c027e973ba92844)** · GhostDragon9889/IsaacLab\_Walker\_S2
-  <sub>2026-07-29 12:42 · modify reward term</sub>
-- **[6f0d846](https://github.com/GhostDragon9889/IsaacLab_Walker_S2/commit/6f0d8460f4982b6ac9a641cb6c748bee7598a914)** · GhostDragon9889/IsaacLab\_Walker\_S2
-  <sub>2026-07-28 12:17 · flat walk</sub>
-- **[4ba8789](https://github.com/GhostDragon9889/IsaacLab_Walker_S2/commit/4ba87893b6c8f6ed33237fadd3f56faa4a8ffd27)** · GhostDragon9889/IsaacLab\_Walker\_S2
-  <sub>2026-07-28 12:17 · flat walk</sub>
+- **[b82e45e](https://github.com/GhostDragon9889/GhostDragon9889.github.io/commit/b82e45e287af44f85c00708713df3d3aeb4a6f62)** · GhostDragon9889/GhostDragon9889.github.io
+  <sub>2026-05-29 20:23 · Merge branch &#x27;main&#x27; of github.com:GhostDragon9889/GhostDragon9889.github.io</sub>
+- **[2128728](https://github.com/GhostDragon9889/GhostDragon9889.github.io/commit/21287285da8cda9a3e2659a2364a15a5abc70740)** · GhostDragon9889/GhostDragon9889.github.io
+  <sub>2026-05-29 20:21 ·  test</sub>
 
 ### Recent Pushes
 
-Push records will appear after the first activity refresh.
+- **[GhostDragon9889/GhostDragon9889.github.io](https://github.com/GhostDragon9889/GhostDragon9889.github.io/compare/35f9486a62e695cf27ac46097786e96aabdd68d1...83b2e01278d73c96f7d81a4b4bc068f5846c8d81)** · main
+  <sub>2026-10-09 18:31 (UTC+8)</sub>
 <!-- ACTIVITY:END -->
 
 ## Research & Practice
