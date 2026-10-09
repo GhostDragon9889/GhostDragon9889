@@ -23,20 +23,22 @@
 [贡献历史](https://github.com/GhostDragon9889?tab=overview#js-contribution-activity) · [主页仓库提交](https://github.com/GhostDragon9889/GhostDragon9889/commits/main/) · [活动更新](https://github.com/GhostDragon9889/GhostDragon9889/actions/workflows/profile-activity.yml)
 
 <!-- ACTIVITY:START -->
-<sub>公开活动 · 更新于 2026-10-09 19:13 (UTC+8). 每 6 小时检查更新；推送事件可能延迟。</sub>
+<sub>公开活动 · 更新于 2026-10-09 19:17 (UTC+8). 每 6 小时检查更新；推送事件可能延迟。</sub>
 
 ### 最近提交
 
+来自代表项目与近期活跃的公开仓库。
+
+- **[2df84fe](https://github.com/GhostDragon9889/GhostDragon9889/commit/2df84fefbd5f17227f7df40e0939526f3e9658df)** · GhostDragon9889/GhostDragon9889
+  <sub>2026-10-09 19:16 · Include selected robotics projects in recent commit records</sub>
 - **[aae40ac](https://github.com/GhostDragon9889/GhostDragon9889/commit/aae40ace880e5d2b55fed35a8d5eba2b2539d85e)** · GhostDragon9889/GhostDragon9889
   <sub>2026-10-09 19:12 · Add English and Chinese profile navigation with public activity records</sub>
 - **[3308cfb](https://github.com/GhostDragon9889/GhostDragon9889/commit/3308cfbe06148616e592e7dbc2870bf88cf693a8)** · GhostDragon9889/GhostDragon9889
   <sub>2026-10-09 18:58 · Build a dark robotics profile with responsive animated banners</sub>
 - **[a5fe2e0](https://github.com/GhostDragon9889/GhostDragon9889/commit/a5fe2e044d2e198098810fd08ab76b28cee3e2f0)** · GhostDragon9889/GhostDragon9889
   <sub>2026-10-09 18:55 · Initial commit</sub>
-- **[b82e45e](https://github.com/GhostDragon9889/GhostDragon9889.github.io/commit/b82e45e287af44f85c00708713df3d3aeb4a6f62)** · GhostDragon9889/GhostDragon9889.github.io
-  <sub>2026-05-29 20:23 · Merge branch &#x27;main&#x27; of github.com:GhostDragon9889/GhostDragon9889.github.io</sub>
-- **[2128728](https://github.com/GhostDragon9889/GhostDragon9889.github.io/commit/21287285da8cda9a3e2659a2364a15a5abc70740)** · GhostDragon9889/GhostDragon9889.github.io
-  <sub>2026-05-29 20:21 ·  test</sub>
+- **[1f6e5e1](https://github.com/GhostDragon9889/IsaacLab_Walker_S2/commit/1f6e5e18eacf29bf5882d2226c027e973ba92844)** · GhostDragon9889/IsaacLab\_Walker\_S2
+  <sub>2026-07-29 12:42 · modify reward term</sub>
 
 ### 最近推送
 

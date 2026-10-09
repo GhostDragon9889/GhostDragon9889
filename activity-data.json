@@ -12,6 +12,13 @@
   "commits": [
     {
       "repo": "GhostDragon9889/GhostDragon9889",
+      "sha": "2df84fefbd5f17227f7df40e0939526f3e9658df",
+      "date": "2026-10-09T11:16:47Z",
+      "message": "Include selected robotics projects in recent commit records",
+      "url": "https://github.com/GhostDragon9889/GhostDragon9889/commit/2df84fefbd5f17227f7df40e0939526f3e9658df"
+    },
+    {
+      "repo": "GhostDragon9889/GhostDragon9889",
       "sha": "aae40ace880e5d2b55fed35a8d5eba2b2539d85e",
       "date": "2026-10-09T11:12:59Z",
       "message": "Add English and Chinese profile navigation with public activity records",
@@ -32,19 +39,12 @@
       "url": "https://github.com/GhostDragon9889/GhostDragon9889/commit/a5fe2e044d2e198098810fd08ab76b28cee3e2f0"
     },
     {
-      "repo": "GhostDragon9889/GhostDragon9889.github.io",
-      "sha": "b82e45e287af44f85c00708713df3d3aeb4a6f62",
-      "date": "2026-05-29T12:23:14Z",
-      "message": "Merge branch 'main' of github.com:GhostDragon9889/GhostDragon9889.github.io",
-      "url": "https://github.com/GhostDragon9889/GhostDragon9889.github.io/commit/b82e45e287af44f85c00708713df3d3aeb4a6f62"
-    },
-    {
-      "repo": "GhostDragon9889/GhostDragon9889.github.io",
-      "sha": "21287285da8cda9a3e2659a2364a15a5abc70740",
-      "date": "2026-05-29T12:21:55Z",
-      "message": " test",
-      "url": "https://github.com/GhostDragon9889/GhostDragon9889.github.io/commit/21287285da8cda9a3e2659a2364a15a5abc70740"
+      "repo": "GhostDragon9889/IsaacLab_Walker_S2",
+      "sha": "1f6e5e18eacf29bf5882d2226c027e973ba92844",
+      "date": "2026-07-29T04:42:39Z",
+      "message": "modify reward term",
+      "url": "https://github.com/GhostDragon9889/IsaacLab_Walker_S2/commit/1f6e5e18eacf29bf5882d2226c027e973ba92844"
     }
   ],
-  "updated_at": "2026-10-09T11:13:23+00:00"
+  "updated_at": "2026-10-09T11:17:08+00:00"
 }
